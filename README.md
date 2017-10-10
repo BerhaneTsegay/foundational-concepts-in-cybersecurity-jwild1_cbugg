@@ -28,6 +28,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 ~~10. Minimization~~
 
 **Making it:**
+
+Be in the root directory, and type:
 ~~~
-make makefile
+make
 ~~~
