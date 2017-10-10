@@ -1,3 +1,5 @@
+## Resource Encapsulation
+
 Resource Encapsulation requires program and system designers to limit access to resources to only those systems/processes whom require access. 
 
 TODELETE:
