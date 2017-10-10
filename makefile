@@ -6,28 +6,28 @@ domainSeparation_good: ./1/src/domainSeparation_good.cpp
 domainSeparation_bad: ./1/src/domainSeparation_bad.cpp
 	g++ -o ./1/src/domainSeparation_bad ./1/src/domainSeparation_bad.cpp
 
-processIsolation_good: processIsolation_good.cpp
+processIsolation_good: ./2/src/processIsolation_good.cpp
 	g++ -o ./2/src/processIsolation_good ./2/src/processIsolation_good.cpp
 
-processIsolation_bad: processIsolation_bad.cpp
+processIsolation_bad: ./2/src/processIsolation_bad.cpp
 	g++ -o ./2/src/processIsolation_bad ./2/src/processIsolation_bad.cpp
 
-resourceEncapsulation_good: resourceEncapsulation_good.cpp
+resourceEncapsulation_good: ./3/src/resourceEncapsulation_good.cpp
 	g++ -o ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_good.cpp
 
-resourceEncapsulation_bad: resourceEncapsulation_bad.cpp
+resourceEncapsulation_bad: ./3/src/resourceEncapsulation_bad.cpp
 	g++ -o ./3/src/resourceEncapsulation_bad ./3/src/resourceEncapsulation_bad.cpp
 
-leastPrivilege_good: leastPrivilege_good.cpp
+leastPrivilege_good: ./4/src/leastPrivilege_good.cpp
 	g++ -o ./4/src/leastPrivilege_good ./4/src/leastPrivilege_good.cpp
 
-leastPrivilege_bad: leastPrivilege_bad.cpp
+leastPrivilege_bad: ./4/src/leastPrivilege_bad.cpp
 	g++ -o ./4/src/leastPrivilege_bad ./4/src/leastPrivilege_bad.cpp
 
-modularity_good: modularity_good.cpp
+modularity_good: ./5/src/modularity_good.cpp
 	g++ -o ./5/src/modularity_good ./5/src/modularity_good.cpp
 
-modularity_bad: modularity_bad.cpp
+modularity_bad: ./5/src/modularity_bad.cpp
 	g++ -o ./5/src/modularity_bad ./5/src/modularity_bad.cpp
 
 clean:
