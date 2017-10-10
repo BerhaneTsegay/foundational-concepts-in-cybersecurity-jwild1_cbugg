@@ -2,6 +2,8 @@
 
 Resource Encapsulation requires program and system designers to limit access to resources to only those systems/processes whom require access. 
 
+In our example we...
+
 TODELETE:
 A computer has many resources. A resource can be hardware based such as memory, disk drives, or a monitor. It can also be system objects such as semaphores, a linked list, or shared memory. 
 
