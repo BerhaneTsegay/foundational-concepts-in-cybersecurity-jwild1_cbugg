@@ -16,10 +16,15 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
     - blank
 5. Modularity
     - blank
+    
 ~~6. Layering~~
+
 ~~7. Abstraction~~
+
 ~~8. Data Hiding~~
+
 ~~9. Simplicity~~
+
 ~~10. Minimization~~
 
 **Making it:**
