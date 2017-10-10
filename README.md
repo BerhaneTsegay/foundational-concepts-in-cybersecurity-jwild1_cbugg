@@ -1,7 +1,8 @@
 # Foundational Concepts in Cybersecurity
 #### Jwild1 & Cbugg | COSC 4010 | 10/10/17
 
-**Assignment:** 
+**Assignment:**
+
 Create a repository with code, graphics, and textual descriptions of the 10 Foundational Concepts in Cybersecurity. Code should represent both a functional example of the concept as well as a non-example. Textual descriptions should reference both the code and the graphics. 
 
 **Topics with breif description:**
