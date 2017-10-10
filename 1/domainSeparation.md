@@ -3,6 +3,11 @@ Domain Separation involves separating access between processes/machines and the 
 
 In our example, we... 
 
+![Separate access for seperate items](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-jwild1_cbugg/blob/master/1/domainSeparation.jpg)
+
+#### Sources:
+https://image.slidesharecdn.com/5anti-patternsinapidesign-buildstuff-151119041910-lva1-app6891/95/5-antipatterns-in-api-design-buildstuff-13-638.jpg?cb=1447906854
+
 TODELETE:
 In the Robert Frost poem “Mending Fences”, the last line states “Good fences make good neighbors”. Domain separation is like this. 
 
