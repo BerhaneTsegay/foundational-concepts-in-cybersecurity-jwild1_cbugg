@@ -6,9 +6,6 @@
 ```
 Utilizing a templated array allows the user to create an array of any type of elements without  having to explicitly creating an particular type of array for every use case. One container many applications is the definition of modularity. 
 
-
-![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-jwild1_cbugg/blob/master/5/giphy.gif "Logo Title Text 1")
-
 Trying to use this gradebook array set up is terrible. you cannot modify anything you can create new arrays the arrays do not update eachother and trying to use it for any other situation would be equally untennable. each student has a number a  percentage grad a letter grade a a message that prints out. every time all of the information is du mped to the screen. this is not usable for other purposes and is the antithisis of modularity.
 
 ```
@@ -47,3 +44,4 @@ cout << " do you want to see the arrays non 0 for yes" << endl;
 
 ```
 This is a visual example of modularity.
+![alt text](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-jwild1_cbugg/blob/master/5/giphy.gif "Logo Title Text 1")
