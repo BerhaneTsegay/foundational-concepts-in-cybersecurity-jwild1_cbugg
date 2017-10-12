@@ -1,6 +1,8 @@
 // domainSeparation_bad.cpp
 
 // This is a bad example of domain separation.
+//      Sub-functions can access other sub-functions
+//      variables because they were declared globally.
 
 // Chris Bugg
 // COSC 4010
@@ -9,13 +11,46 @@
 #include <iostream>
 using namespace std;
 
+int func1_res;
+
+int func2_res;
+
+int func1_var;
+
+int func2_var;
+
+int func1()
+{
+        cout << "Enter a Number: ";
+
+        cin >> func1_var;
+
+        return func1_var;
+}
+
+int func2()
+{
+
+        cout << "func1's input was: " << func1_var << endl;
+
+        cout << "Enter a Number: ";
+
+        cin >> func2_var;
+
+        return func2_var;
+}
+
 int main()
 {
-	cout << "Domain Separation Bad" << endl;
+        cout << "Domain Separation - Bad" << endl;
 
-	int howdy;
+        func1_res = func1();
 
-	cin >> howdy;
+        cout << func1_res << endl;
 
-	return 0;
+        func2_res = func2();
+
+        cout << func2_res << endl;
+
+        return 0;
 }
