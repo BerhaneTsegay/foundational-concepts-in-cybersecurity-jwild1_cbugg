@@ -11,13 +11,13 @@ using namespace std;
 
 int func1()
 {
-        cout << "Enter a Number: ";
+	cout << "Enter a Number: ";
 
-        int func1_var;
+	int func1_var;		// Declare variable locally
 
-        cin >> func1_var;
+	cin >> func1_var;	// Get value from user
 
-        return func1_var;
+	return func1_var;	// Return value to main
 }
 
 int func2()
