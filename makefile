@@ -37,7 +37,7 @@ simplicity_bad: ./9/src/simplicity_bad.cpp
 	g++ -o ./9/src/simplicity_bad ./9/src/simplicity_bad.cpp
 
 minimization_good: ./10/src/minimization_good.cpp ./10/src/minimization_good.h
-	g++ -o ./10/src/minimization_good ./5/src/minimization_good.cpp ./5/src/minimization_good.h
+	g++ -o ./10/src/minimization_good ./10/src/minimization_good.cpp ./10/src/minimization_good.h
 
 minimization_bad: ./10/src/minimization_bad.cpp
 	g++ -o ./10/src/minimization_bad ./10/src/minimization_bad.cpp
