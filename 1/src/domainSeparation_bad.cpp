@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-int func1_res;
+int func1_res;  // Globally declared variables
 
 int func2_res;
 
@@ -23,7 +23,7 @@ int func1()
 {
         cout << "Enter a Number: ";
 
-        cin >> func1_var;
+        cin >> func1_var;       // Put user input in a global variable
 
         return func1_var;
 }
@@ -44,7 +44,7 @@ int main()
 {
         cout << "Domain Separation - Bad" << endl;
 
-        func1_res = func1();
+        func1_res = func1();    // Put function results in another global variable
 
         cout << func1_res << endl;
 
