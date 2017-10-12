@@ -42,7 +42,5 @@ minimization_good: ./10/src/minimization_good.cpp ./10/src/minimization_good.h
 minimization_bad: ./10/src/minimization_bad.cpp
 	g++ -o ./10/src/minimization_bad ./10/src/minimization_bad.cpp
 
-
 clean:
-	rm ./1/src/domainSeparation_good ./1/src/domainSeparation_bad ./2/src/processIsolation_good ./2/src/processIsolation_bad ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_bad ./4/src/leastPrivilege_good ./4/src/leastPrivilege_bad ./5/src/modularity_good ./5/src/modularity_bad ./9/src/simplicity_good ./9/src/simplicity_bad ./10/src/minimization_good ./10/src/minimization_bad
-	
+	rm ./1/src/domainSeparation_good ./1/src/domainSeparation_bad ./2/src/processIsolation_good ./2/src/processIsolation_bad ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_bad ./4/src/leastPrivilege_good ./4/src/leastPrivilege_bad ./5/src/modularity_good ./5/src/modularity_bad ./9/src/simplicity_good ./9/src/simplicity_bad ./10/src/minimization_good ./10/src/minimization_bad	
