@@ -31,7 +31,7 @@ int main()
  This makes for faster programming, declare all your variables globally and you won't have permission problems. Of course this means nothing else will have problems bypassing permissions either. This can also lead to name-conflicts (*a-la* overloading) and other unforseen problems, which is why it's strongly recommended against. 
  
  Other places domain separation is important would be for public APIs vs private processes run on the server itself. 
- *Here's an example:*
+###### Here's an example:
  
 ![Separate access for seperate items](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-jwild1_cbugg/blob/master/1/domainSeparation.jpg)
 
