@@ -7,4 +7,4 @@ processIsolation_bad: processIsolation_bad.cpp
 	g++ -o processIsolation_bad processIsolation_bad.cpp
 
 clean:
-rm processIsolation_good processIsolation_bad
+	rm processIsolation_good processIsolation_bad
