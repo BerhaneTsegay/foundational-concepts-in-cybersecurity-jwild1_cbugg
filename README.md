@@ -18,7 +18,6 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 5. Modularity
     - One mind any weapon
     
-    
 ~~6. Layering~~
 
 ~~7. Abstraction~~
