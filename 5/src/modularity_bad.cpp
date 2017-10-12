@@ -17,15 +17,32 @@ int main()
 	cin >> ans;
 	if (ans != 0)
 	{
-		cout << numbers << endl;
-		cout << floats << endl;
-		cout << chracters << endl;
-		cout << strings << endl;
+		for(int i=0; i<10; i++)
+                {
+                        cout << numbers[i];
+                }
+                cout << endl;
+                for(int i=0; i<10; i++)
+                {
+                        cout << floats[i];
+                }
+                cout << endl;
+                for(int i=0; i<10; i++)
+                {
+                        cout << chracters[i];
+                }
+                cout << endl;
+                for(int i=0; i<10; i++)
+                {
+                        cout << strings[i];
+                }
+                cout << endl;
+
 	}
 	cout << " 0 to exit." << endl;
 	cin >> ans;
 	if (ans == 0)
 	{
-		exit.0;
+		return 0;
 	}
 }
