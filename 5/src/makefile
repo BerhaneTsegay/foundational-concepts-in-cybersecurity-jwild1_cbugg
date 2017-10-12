@@ -7,4 +7,4 @@ modularity_bad: modularity_bad.cpp
 	g++ -o modularity_bad modularity_bad.cpp
 
 clean:
-rm modularity_good modularity_bad
+	rm modularity_good modularity_bad
