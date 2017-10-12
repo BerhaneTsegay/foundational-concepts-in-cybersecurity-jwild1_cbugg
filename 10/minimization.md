@@ -29,6 +29,15 @@ instead of just throwing everything in (like `minimization_bad.cpp`).
 ```
 using namespace std;
 ```
+Not stopping there, our `getArray()` method in `minimization_good.h` doesn't even return the value to the calling function, but instead prints it directly to stdout
+```
+    // Displays the elements in the array
+    void getArray() 
+	...
+			cout << setw(7) << j << setw(13) << myArray[j]
+				<< " type: " << typeid(myArray[j]).name() << endl;
+	...
+```
 ###### Example:
  
 ![Minimization](https://github.com/UW-COSC-4010-5010-CYBER-FA-2017/foundational-concepts-in-cybersecurity-jwild1_cbugg/blob/master/10/200.gif)
