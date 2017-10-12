@@ -13,10 +13,10 @@ processIsolation_bad: ./2/src/processIsolation_bad.cpp
 	g++ -std=gnu++11 -pthread -o ./2/src/processIsolation_bad ./2/src/processIsolation_bad.cpp
 
 resourceEncapsulation_good: ./3/src/resourceEncapsulation_good.cpp
-	g++ -o ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_good.cpp
+	g++ -std=gnu++11 -o ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_good.cpp
 
 resourceEncapsulation_bad: ./3/src/resourceEncapsulation_bad.cpp
-	g++ -o ./3/src/resourceEncapsulation_bad ./3/src/resourceEncapsulation_bad.cpp
+	g++ -std=gnu++11 -o ./3/src/resourceEncapsulation_bad ./3/src/resourceEncapsulation_bad.cpp
 
 leastPrivilege_good: ./4/src/leastPrivilege_good.cpp
 	g++ -o ./4/src/leastPrivilege_good ./4/src/leastPrivilege_good.cpp
