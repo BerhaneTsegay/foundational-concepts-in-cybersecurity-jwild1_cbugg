@@ -7,10 +7,10 @@ domainSeparation_bad: ./1/src/domainSeparation_bad.cpp
 	g++ -o ./1/src/domainSeparation_bad ./1/src/domainSeparation_bad.cpp
 
 processIsolation_good: ./2/src/processIsolation_good.cpp
-	g++ -o ./2/src/processIsolation_good ./2/src/processIsolation_good.cpp
+	g++ -std=gnu++11 -pthread -o ./2/src/processIsolation_good ./2/src/processIsolation_good.cpp
 
 processIsolation_bad: ./2/src/processIsolation_bad.cpp
-	g++ -o ./2/src/processIsolation_bad ./2/src/processIsolation_bad.cpp
+	g++ -std=gnu++11 -pthread -o ./2/src/processIsolation_bad ./2/src/processIsolation_bad.cpp
 
 resourceEncapsulation_good: ./3/src/resourceEncapsulation_good.cpp
 	g++ -o ./3/src/resourceEncapsulation_good ./3/src/resourceEncapsulation_good.cpp
