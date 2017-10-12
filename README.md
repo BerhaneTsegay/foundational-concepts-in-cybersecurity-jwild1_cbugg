@@ -16,7 +16,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 ~~4. Least Privilege~~
 
 5. Modularity
-    - blank
+    -One mind any weapon
+    
     
 ~~6. Layering~~
 
@@ -25,10 +26,10 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 ~~8. Data Hiding~~
 
 9. Simplicity
-    - blank
+    -The minimization of incidental complexity.
 
 10. Minimization
-    - blank
+    - limiting the places where users and other programs can enter or extract data.
 
 **Making it:**
 
