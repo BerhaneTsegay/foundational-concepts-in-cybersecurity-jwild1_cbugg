@@ -12,7 +12,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
     - Process Isolation requires the operating system to keep seperate the resources each process needs to operate. 
 3. Resource Encapsulation
     - Resource Encapsulation requires program and system designers to limit access to resources to only those systems/processes whom require access.
-4. Least Privilege
+
+~~4. Least Privilege~~
     - blank
 5. Modularity
     - blank
@@ -23,9 +24,11 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 
 ~~8. Data Hiding~~
 
-~~9. Simplicity~~
+9. Simplicity
+    - blank
 
-~~10. Minimization~~
+10. Minimization
+    - blank
 
 **Making it:**
 
