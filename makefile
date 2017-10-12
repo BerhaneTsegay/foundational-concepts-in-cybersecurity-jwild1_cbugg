@@ -1,4 +1,4 @@
-all: domainSeparation_good domainSeparation_bad processIsolation_good processIsolation_bad resourceEncapsulation_good resourceEncapsulation_bad leastPrivilege_good leastPrivilege_bad modularity_good modularity_bad
+all: domainSeparation_good domainSeparation_bad processIsolation_good processIsolation_bad resourceEncapsulation_good resourceEncapsulation_bad leastPrivilege_good leastPrivilege_bad modularity_good modularity_bad simplicity_good simplicity_bad minimization_good minimization_bad
 
 domainSeparation_good: ./1/src/domainSeparation_good.cpp
 	g++ -o ./1/src/domainSeparation_good ./1/src/domainSeparation_good.cpp
