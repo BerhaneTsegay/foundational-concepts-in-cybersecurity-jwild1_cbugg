@@ -24,8 +24,8 @@ leastPrivilege_good: ./4/src/leastPrivilege_good.cpp
 leastPrivilege_bad: ./4/src/leastPrivilege_bad.cpp
 	g++ -o ./4/src/leastPrivilege_bad ./4/src/leastPrivilege_bad.cpp
 
-modularity_good: ./5/src/modularity_good.cpp
-	g++ -o ./5/src/modularity_good ./5/src/modularity_good.cpp
+modularity_good: ./5/src/modularity_good.cpp ./5/src/modularity_good.h
+	g++ -o ./5/src/modularity_good ./5/src/modularity_good.cpp ./5/src/modularity_good.h
 
 modularity_bad: ./5/src/modularity_bad.cpp
 	g++ -o ./5/src/modularity_bad ./5/src/modularity_bad.cpp
