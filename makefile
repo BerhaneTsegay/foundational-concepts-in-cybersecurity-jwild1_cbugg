@@ -28,7 +28,7 @@ resourceEncapsulation_bad: ./3/src/resourceEncapsulation_bad.cpp
 	g++ -std=gnu++11 -o ./3/src/resourceEncapsulation_bad ./3/src/resourceEncapsulation_bad.cpp
 
 leastPrivilege_good: ./4/src/leastPrivilege_good.cpp
-	g++ -o ./4/src/leastPrivilege_good ./4/src/leastPrivilege_good.cpp
+	g++ -std=gnu++11 -o ./4/src/leastPrivilege_good ./4/src/leastPrivilege_good.cpp
 
 leastPrivilege_bad: ./4/src/leastPrivilege_bad.cpp
 	g++ -std=gnu++11 -o ./4/src/leastPrivilege_bad ./4/src/leastPrivilege_bad.cpp
