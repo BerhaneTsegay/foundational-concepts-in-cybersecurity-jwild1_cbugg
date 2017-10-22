@@ -13,7 +13,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 3. Resource Encapsulation
     - Resource Encapsulation requires program and system designers to limit access to resources to only those systems/processes whom require access.
 
-~~4. Least Privilege~~
+4. Least Privilege
+    - Least Privilege involves separating access to all available functions and only utilizing the least privilege level required.
 
 5. Modularity
     - One mind any weapon
