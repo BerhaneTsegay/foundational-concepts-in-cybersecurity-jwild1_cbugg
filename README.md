@@ -21,7 +21,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
     
 ~~6. Layering~~
 
-~~7. Abstraction~~
+7. Abstraction
+    - Abstraction takes the finer details away from unnessesary places and allows for a cleaner, simpler interface.
 
 ~~8. Data Hiding~~
 
