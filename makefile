@@ -2,7 +2,7 @@ all: domainSeparation_good domainSeparation_bad\
 processIsolation_good processIsolation_bad\
 resourceEncapsulation_good resourceEncapsulation_bad\
 leastPrivilege_good leastPrivilege_bad\
-modularity_good modularity_bad\ 
+modularity_good modularity_bad\
 layering_good layering_bad\
 abstraction_good abstraction_bad\
 data_hiding_good data_hiding_bad\
