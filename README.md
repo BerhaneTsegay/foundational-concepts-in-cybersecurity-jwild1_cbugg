@@ -24,7 +24,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 7. Abstraction
     - Abstraction takes the finer details away from unnessesary places and allows for a cleaner, simpler interface.
 
-~~8. Data Hiding~~
+8. Data Hiding
+    - Data Hiding involves removing the data from an easily accessable position or form, giving up only what is required for the program to function. 
 
 9. Simplicity
     - The minimization of incidental complexity.
