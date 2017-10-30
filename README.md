@@ -19,7 +19,8 @@ Create a repository with code, graphics, and textual descriptions of the 10 Foun
 5. Modularity
     - One mind any weapon
     
-~~6. Layering~~
+6. Layering
+    - Layering means providing multiple steps or levels that would need to be overcome for an attacker to gain access to a system/data. 
 
 7. Abstraction
     - Abstraction takes the finer details away from unnessesary places and allows for a cleaner, simpler interface.
